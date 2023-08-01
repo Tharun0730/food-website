@@ -1,0 +1,229 @@
+*{
+    padding: 0%;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+
+ }
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#ffffff;
+    height: 100vh;
+    width: 100%;
+    
+}
+header>main{
+   
+    background-color: wheat;
+    color: black;
+    height: 32rem;
+    width:500px;
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='36' height='43' viewport='0 0 100 100' style='fill:black;font-size:22px;'><text y='50%'>🍕</text></svg>") 16 0,auto; 
+}
+.container1 h2:first-child {
+    font-family:cursive;
+
+}
+.container1 h3:first-child {
+    font-family:cursive;
+
+}
+.container1{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    gap: 10px;
+    box-shadow:-12px -12px 7px rgba(0,0,0,0.7);
+    border-radius: 10px 0px 0px 10px;
+    
+}
+.box{
+    gap: 05px;
+    display: flex;
+    justify-content: space-between;
+}
+.container1 input:nth-child(4){
+    padding: 05px;
+
+}
+.container1 input:nth-child(6){
+    padding: 05px;
+}
+.rem{
+    padding-right: 0px;
+
+}
+button{
+    background-color: lightcoral;
+    padding: 10px;
+    font-weight: bolder;
+    margin: 05px;
+    border: 1px solid black;
+    color: white;
+}
+.container1 span:last-child{
+    text-align: center;
+
+
+}
+.container2{
+    
+    /* background-image: url(./malaysian-coffee-2936.gif); */
+    background-repeat: no-repeat;
+    background-image: url(./images/pizza-8.gif);
+    border-radius: 0px 10px 10px 0px;
+    background-size: 500px 520px;
+    object-fit: cover;
+    box-shadow:12px 12px 7px rgba(0,0,0,0.7);
+    background-position: 0px 0px ;
+    
+
+
+}
+.container1 a{
+    color: black;
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='36' height='43' viewport='0 0 100 100' style='fill:black;font-size:22px;'><text y='50%'>🍕</text></svg>") 16 0,auto; 
+
+}
+.container2 h1{
+    font-family:cursive;
+    text-shadow: 2px 0px rgb(0, 0, 0), 0px 2px rgb(0, 0, 0), 0px -2px rgb(0, 0, 0),-2px 0px rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px 0PX 10PX 0PX;
+    color: lightcoral;
+
+}
+
+.container1 i{
+    
+    font-size: x-large;
+    vertical-align: middle;
+    padding-bottom: 05px;
+    padding-right: 05px;
+    
+
+}
+.container2 i{
+    color: lightcoral;
+    padding: 20px 10PX 0PX 0PX;
+    
+
+}
+.container2 h3{
+    color: white;
+    text-align: center;
+
+}
+.box1{
+    text-shadow: 1px 0px rgb(0, 0, 0), 0px 1px rgb(0, 0, 0), 0px -1px rgb(0, 0, 0),-1px 0px rgb(0, 0, 0);
+    color:white;
+    font-weight: bolder;
+
+}
+@media screen and (min-width:320px) and (max-width:600px){
+
+    header{
+        display: flex;
+        flex-direction:column-reverse;
+        justify-content: center;
+        align-items: center;
+        background-color:#ffffff;
+        height: 100%;
+
+        width:100%;
+        padding: 20px;
+       
+
+    } 
+    header>main{
+   
+        background-color: wheat;
+        color: black;
+        /* height: 32rem; */
+        
+        width:100%;
+        cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='36' height='43' viewport='0 0 100 100' style='fill:black;font-size:22px;'><text y='50%'>🍕</text></svg>") 16 0,auto; 
+    }
+    .container1{
+        display: flex;
+        flex-direction: column;
+        padding: 40px;
+        
+        gap: 10px;
+        box-shadow:none;
+        border-radius: 0px 0px 10px 10px ;
+        height: max-content;
+
+        width: min(100%,400px);
+        
+    }
+     .box{
+        flex-wrap: nowrap;
+        
+     }
+     .rem{
+        padding-right: 20px;
+
+     }
+    .container2{
+    
+        /* background-image: url(./malaysian-coffee-2936.gif); */
+
+        height: 90vh;
+        margin-top: 20px;
+        background-size:100% 100%;
+        object-fit: contain;
+        box-shadow:none;
+        border-radius: 10px 10px 0px 0px  ;
+        
+        width: min(100%,400px);
+    
+    }
+    
+
+}  
+@media screen and (min-width:600px) and (max-width:900px){
+
+    header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color:#ffffff;
+        height: 600px;
+        margin: 30px;
+        width: 90%;
+       
+
+    } 
+    header>main{
+        height: 550px;
+        
+
+    }
+    #rem{
+       padding: 3px;
+       font-size: small;
+    
+    }
+    .box{
+        flex-wrap: nowrap;
+        
+     }
+
+    
+}
+@media screen and (min-width:900px) and (max-width:1200px){
+ 
+    header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color:#fffcfc;
+        height: 615px;
+        padding: 20px;
+        
+    }
+    
+} 
